@@ -7,10 +7,10 @@
 
 ## Site settings
 title:
-  en: Slimcoin | A cryptocurrency for the long term.
-  es: Slimcoin | La criptomoneda duradera y estable.
-  pl: Slimcoin | Długoterminowa kryptowaluta.
-  ru: Слимкоин | Криптовалюта для долгосрочной перспективы.
+  en: David CHEN | Sylvia's husband,the father of adorable twins.
+  es: David CHEN | Sylvia's husband,the father of adorable twins.
+  pl: David CHEN | Sylvia's husband,the father of adorable twins.
+  ru: David CHEN | Sylvia's husband,the father of adorable twins.
 description:
   en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
   es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
@@ -21,9 +21,9 @@ index:
   es: index-es.html
   pl: index-pl.html
   ru: index-ru.html
-url: "http://slimco.in" # the base hostname & protocol for your site
-twitter_username: slimcoin_club
-github_username: slimcoin-project
+url: "https://davidnsw.github.io/cover/index.html" # the base hostname & protocol for your site
+twitter_username: davidnsw
+github_username: davidnsw
 # feed:
 #  en: /feed.xml
 #  es: /feed_es.xml
@@ -37,49 +37,57 @@ technologymenu:
   es: Tecnología
   pl: Technologia
   ru: Technology
+  zh: 技术分享
 helpmenu:
   en: Help and Tools
   es: Ayuda y Herramientas
   pl: Pomoc i narzędzia
   ru: Help and Tools
+  zh: 工具分享
 downloadmenu:
   en: Downloads
   es: Bajar
   pl: Pobierz
   ru: Downloads
+  zh: 下载
 communitymenu:
   en: Participate
   es: Participar
   pl: Weź udział
   ru: Participate
+  zh: 在线交流
 languagemenu:
   en: Languages
   es: Idiomas
   pl: Języki
   ru: Languages
+  zh: 语言
 mastheadtitle:
-  en: The Next Generation of Cryptocurrencies
-  es: La Próxima Generación de las Criptomonedas
-  pl: Następna generacja kryptowalut
-  ru: The Next Generation of Cryptocurrencies
+  en: The Next Generation of Self-learning
+  es: The Next Generation of Self-learning
+  pl: The Next Generation of Self-learning
+  ru: The Next Generation of Self-learning
+  zh: 新一代人的自我学习
 mastheadtext:
-  en: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
-  es: Pruebas de trabajo resistentes a la paralelización y primera implementación del-Proof of-Burn
-  pl: Odporny na ASIC Proof-of-Work i pierwsza nowatorska implementacja Proof-of-Burn
-  ru: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
+  en: “Life is like riding a bicycle. To keep your balance, you must keep moving.”--Albert Einstein
+  es: “Life is like riding a bicycle. To keep your balance, you must keep moving.”--Albert Einstein
+  pl: “Life is like riding a bicycle. To keep your balance, you must keep moving.”--Albert Einstein
+  ru: “Life is like riding a bicycle. To keep your balance, you must keep moving.”--Albert Einstein
+  zh: 人生就像骑自行车，要保持平衡就要不断前进。——爱因斯坦
 languagestring:
   en: English
   es: Español
   pl: Polski
   ru: Русский
+  zh: 中文
 
 # Updateables
 
 exchanges:
 #  - name: Nova Exchange - they closed their business on October 7, 2019
 #    url: "https://novaexchange.com"
-  - name: FreiExchange
-    url: "https://freiexchange.com"
+  - name: Homepage
+    url: "https://davidnsw.github.io/home/"
 #  - name: CoinsMarket # currently offline - probably scam exchange
 #    url: "https://coinsmarkets.com"
 #  - name: CoinHouse # with problems, removed until solved - market removed
@@ -87,19 +95,19 @@ exchanges:
 
 wallets:
   - name: Windows
-    url: "https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/slimcoin-qt.exe"
+    url: "https://github.com/davidnsw"
     logo: /assets/windows.svg
   - name: macOS
-    url: "https://github.com/slimcoin-project/Slimcoin/releases/download/SLMv0.5.0/SLIMCoin-Qt-SLMv0.5.0-BDB4.8.dmg"
+    url: "https://github.com/davidnsw"
     logo: /assets/mac.svg
   - name: "Ubuntu"
-    url: "https://mega.nz/#!oTBHnK7A!u3b6Sfto_-J9Rcp-GmThLrSv1lSHZo2rNS0wP_ac3gc"
+    url: "https://github.com/davidnsw"
     logo: /assets/ubuntu.svg
   - name: "ARM"
-    url: "https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x"
+    url: "https://github.com/davidnsw"
     logo: /assets/raspberry.svg
   - name: "Source Code"
-    url: "https://github.com/slimcoin-project/Slimcoin/tree/master"
+    url: "https://github.com/davidnsw"
     logo: /assets/git.svg
 
 walletname: Simcoin-QT 0.5.1
@@ -111,21 +119,25 @@ footertitle:
   es: Usar & Participar
   pl: Użycie i przystąpienie
   ru: Использование и участие
+  zh: 使用和参加
 resourcesheading:
   en: Resources
   es: Recursos
   pl: Źródła
   ru: Ресурсы
+  zh: 资源链接
 socialheading:
   en: Social media
   es: Medios sociales
   pl: Media społecznościowe
   ru: Социальные медиа
+  zh: 社交媒体
 toolsheading:
   en: Tools
   es: Herramientas
   pl: Narzędzia
   ru: Инструменты
+  zh: 工具
 
 # Build settings
 markdown: kramdown
