@@ -1,0 +1,131 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+## Site settings
+title:
+  en: Slimcoin | A cryptocurrency for the long term.
+  es: Slimcoin | La criptomoneda duradera y estable.
+  pl: Slimcoin | Długoterminowa kryptowaluta.
+  ru: Слимкоин | Криптовалюта для долгосрочной перспективы.
+description:
+  en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
+  es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
+  pl: Slimcoin jest energooszczędną kryptowalutą zaprojektowaną w celu decentralizacji i stabilności. Jest to pierwsza kryptowaluta używająca konsensus Proof of Burn/ wirtualnego kopania.
+  ru: Слимкоин. Криптовалюта для долгосрочной перспективы.
+index:
+  en:
+  es: index-es.html
+  pl: index-pl.html
+  ru: index-ru.html
+url: "http://slimco.in" # the base hostname & protocol for your site
+twitter_username: slimcoin_club
+github_username: slimcoin-project
+# feed:
+#  en: /feed.xml
+#  es: /feed_es.xml
+# baseurl: "/pages" # the subpath of your site, e.g. /blog
+# email: your-email@domain.com
+
+## Header
+
+technologymenu:
+  en: Technology
+  es: Tecnología
+  pl: Technologia
+  ru: Technology
+helpmenu:
+  en: Help and Tools
+  es: Ayuda y Herramientas
+  pl: Pomoc i narzędzia
+  ru: Help and Tools
+downloadmenu:
+  en: Downloads
+  es: Bajar
+  pl: Pobierz
+  ru: Downloads
+communitymenu:
+  en: Participate
+  es: Participar
+  pl: Weź udział
+  ru: Participate
+languagemenu:
+  en: Languages
+  es: Idiomas
+  pl: Języki
+  ru: Languages
+mastheadtitle:
+  en: The Next Generation of Cryptocurrencies
+  es: La Próxima Generación de las Criptomonedas
+  pl: Następna generacja kryptowalut
+  ru: The Next Generation of Cryptocurrencies
+mastheadtext:
+  en: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
+  es: Pruebas de trabajo resistentes a la paralelización y primera implementación del-Proof of-Burn
+  pl: Odporny na ASIC Proof-of-Work i pierwsza nowatorska implementacja Proof-of-Burn
+  ru: Parallelism-resistant Proof-of-Work and first Novel Proof-of-Burn Implementation
+languagestring:
+  en: English
+  es: Español
+  pl: Polski
+  ru: Русский
+
+# Updateables
+
+exchanges:
+#  - name: Nova Exchange - they closed their business on October 7, 2019
+#    url: "https://novaexchange.com"
+  - name: FreiExchange
+    url: "https://freiexchange.com"
+#  - name: CoinsMarket # currently offline - probably scam exchange
+#    url: "https://coinsmarkets.com"
+#  - name: CoinHouse # with problems, removed until solved - market removed
+#    url: "https://coinhouse.eu"
+
+wallets:
+  - name: Windows
+    url: "https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/slimcoin-qt.exe"
+    logo: /assets/windows.svg
+  - name: macOS
+    url: "https://github.com/slimcoin-project/Slimcoin/releases/download/SLMv0.5.0/SLIMCoin-Qt-SLMv0.5.0-BDB4.8.dmg"
+    logo: /assets/mac.svg
+  - name: "Ubuntu"
+    url: "https://mega.nz/#!oTBHnK7A!u3b6Sfto_-J9Rcp-GmThLrSv1lSHZo2rNS0wP_ac3gc"
+    logo: /assets/ubuntu.svg
+  - name: "ARM"
+    url: "https://drive.google.com/drive/folders/1IDaf4BD2SL0_RJxdp0CZNU7-4aR0EL5x"
+    logo: /assets/raspberry.svg
+  - name: "Source Code"
+    url: "https://github.com/slimcoin-project/Slimcoin/tree/master"
+    logo: /assets/git.svg
+
+walletname: Simcoin-QT 0.5.1
+
+# Footer
+
+footertitle:
+  en: Use & Participate
+  es: Usar & Participar
+  pl: Użycie i przystąpienie
+  ru: Использование и участие
+resourcesheading:
+  en: Resources
+  es: Recursos
+  pl: Źródła
+  ru: Ресурсы
+socialheading:
+  en: Social media
+  es: Medios sociales
+  pl: Media społecznościowe
+  ru: Социальные медиа
+toolsheading:
+  en: Tools
+  es: Herramientas
+  pl: Narzędzia
+  ru: Инструменты
+
+# Build settings
+markdown: kramdown

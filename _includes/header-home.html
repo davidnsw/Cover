@@ -1,0 +1,59 @@
+<header class="site-header">
+  <div class="ui inverted page grid masthead segment mast-gradient">
+    <div class="column">
+      <div class="inverted secondary pointing ui menu">
+        <a class="header item" target="_self" href="{{ "/index.html" | prepend: site.baseurl }}">Slimcoin</a>
+        <!-- Mobile menu -->
+        <a class="mobile-only ui right aligned header link item" id="mobile-menu-trigger">
+          &nbsp;&nbsp;Menu&nbsp;&nbsp;<i class="caret down icon"></i>
+        </a>
+
+        <div class="mobile-only aligned header item ui transition hidden" id="mobile-menu-list">
+          <div class="menu">
+            <center>
+              <span class="item">
+                <div class="ui icon buttons">{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}<a class="ui red button {{ page.lang }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a>{% endfor %}</div>
+              </span>
+            </center>{% assign pages=site.pages | where:"lang", page.lang | sort: 'priority' %}{% for my_page in pages %}{% if my_page.menuitem %}{% if my_page.category == "technology" or my_page.ref == "help" %}<a class="item" style="width: 100% !important" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endif %}{% endfor %}</div>
+        </div>
+
+        <!-- Non-mobile menu bar -->
+        <div class="right menu">
+          <div class="ui dropdown link item">
+            {{ site.technologymenu[page.lang] }} <i class="dropdown icon"></i>
+            <div class="menu">{% assign techpages=site.pages | where:"lang", page.lang | where:"category", "technology" | sort: 'priority' %}{% for my_page in techpages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}<a class="item" target="_blank" href="https://github.com/slimcoin-project/slimcoin-project.github.io/raw/master/whitepaperSLM.pdf">White Paper</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            {{ site.helpmenu[page.lang] }} <i class="dropdown icon"></i>
+            <div class="menu">{% assign helppages=site.pages | where:"lang", page.lang | where:"category", "help" | sort: 'priority' %}{% for my_page in helppages %}{% if my_page.menuitem %}<a class="item" target="_self" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menuitem }}</a>{% endif %}{% endfor %}<a class="item" href="https://chainz.cryptoid.info/slm/" target="_blank">Chainz Block Explorer</a><a class="item" href="http://tessier.bel-epa.com:5064" target="_blank">ACME Metadata Explorer</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            {{ site.downloadmenu[page.lang] }} <i class="dropdown icon"></i>
+            <div class="menu">
+              {% for wallet in site.wallets %}
+                <a class="item" href="{{ wallet.url }}">
+                  {{ site.walletname }} ({{ wallet.name }})
+                </a>
+              {% endfor %}
+              <a class="item" href="https://mega.nz/#!QnxkwTbK!et6c6zINNHuGAgU1wqil5fw_oxOyek2Zv_MWl2x8XT4" target="_parent">SLM Blockchain Snapshot 1186600</a><a class="item" href="https://mega.co.nz/#!pg8lEJoL!54dSH7LrpmOJiMzNS72MDCYvZtXwqnHGyCApmYIpxkA" target="_parent">SLM Blockchain Snapshot 236000</a><a class="item" href="https://mega.nz/#!hq4T1AbY!4O5w3WWWQmRMfdoyxCY1_Hwfgs0fUW0lNJ2gsi_i4jQ" target="_parent">Slimcoin AIO for Windows (client and snapshot)</a></div>
+          </div>
+          <div class="ui dropdown link item">
+        {{ site.communitymenu[page.lang] }} <i class="dropdown icon"></i>
+            <div class="menu">{% if page.ref == "index" %}<a class="item" href="#donate" target="_parent">Donate</a>{% endif %}<a class="item" href="https://bitcointalk.org/index.php?topic=1141676.0">Discussion Thread</a><a class="item" href="https://github.com/slimcoin-project/Slimcoin/wiki">Wiki</a></div>
+          </div>
+          <div class="ui dropdown link item">
+            {{ site.languagemenu[page.lang] }} <i class="dropdown icon"></i>
+            <div class="menu">{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}<a href="{{ page.url | prepend: site.baseurl }}" class="item {{ page.lang }}">{{ site.languagestring[page.lang] }}</a>{% endfor %}</div>
+          </div> 
+        </div>
+      </div>
+      <div class="anim ui transition information visible">
+        <h1 class="ui inverted header big-for-mobile left">
+        {{ site.mastheadtitle[page.lang] }}
+        </h1>
+        <p style="padding-left:20px">{{ site.mastheadtext[page.lang] }}</p>
+      </div>
+      <img src="{{ "/assets/slm.png" | prepend: site.baseurl }}" class="ui center aligned medium image anim" width="100px"> 
+    </div>
+  </div>
+</header>
