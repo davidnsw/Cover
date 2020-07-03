@@ -11,16 +11,20 @@ title:
   es: David CHEN | Sylvia's husband,the father of adorable twins.
   pl: David CHEN | Sylvia's husband,the father of adorable twins.
   ru: David CHEN | Sylvia's husband,the father of adorable twins.
+  zh: David CHEN | Sylvia's husband,the father of adorable twins.
 description:
-  en: Slimcoin is a energy-efficient cryptocurrency designed for decentralization and stability. It's the first cryptocurrency using Proof of Burn or virtual mining.
-  es: Slimcoin es una criptomoneda eficiente, decentralizada y estable. Es la primera criptomoneda que usa Proof of Burn o minería virtual. 
-  pl: Slimcoin jest energooszczędną kryptowalutą zaprojektowaną w celu decentralizacji i stabilności. Jest to pierwsza kryptowaluta używająca konsensus Proof of Burn/ wirtualnego kopania.
-  ru: Слимкоин. Криптовалюта для долгосрочной перспективы.
+  en: This site is an online communication navigator designed for sharing the latest learning methods and experiences.
+  es: This site is an online communication navigator designed for sharing the latest learning methods and experiences.
+  pl: This site is an online communication navigator designed for sharing the latest learning methods and experiences.
+  ru: This site is an online communication navigator designed for sharing the latest learning methods and experiences.
+  zh: 本站致力于分享最新的在线学习方法和经验
+
 index:
   en:
   es: index-es.html
   pl: index-pl.html
   ru: index-ru.html
+  zh: index-zh.html
 url: "https://davidnsw.github.io/cover/index.html" # the base hostname & protocol for your site
 twitter_username: davidnsw
 github_username: davidnsw
